@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Larken";
+  font-style: normal;
+  src: local("Larken"),
+    url("../assets/fonts/Larken.ttf");
+}
+
+@font-face {
+  font-family: "TT";
+  font-style: normal;
+  src: local("TT"),
+    url("../assets/fonts/TT.otf");
+}
+
+.font-larken{
+  font-family: LarKen;
+}
+
+.font-tt{
+  font-family: TT;
+}
