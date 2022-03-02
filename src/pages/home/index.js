@@ -18,6 +18,32 @@ const HomePage = (props) => {
   return (
     <Layout>
       <div className="home-container container bg-app-primary-back">
+        <div className='justify-around flex flex-col'>
+          <div className='border-4 border-app-primary p-12 mx-12 mt-8  border-dashed bg-white'>
+            <h1 className="font-bold text-center text-2xl">Hello, Sholder Team.</h1>
+            <p className='w-10/12 text-xl text-left mx-auto'>
+              Here is some suggestion for our project,<br />
+              how about use skype or slack for development.
+              some of info should not visible on upwork chat for example email.<br />
+
+              this is my skype id<br />
+              <strong>live:.cid.1b8a2f83900754</strong><br />
+              <strong>keigo2022@outlook.com</strong>
+              <br />
+              and this is chatroom for project
+              <a href='https://join.skype.com/MVzYQLE4uBQe' className='text-2xl text-blue-700'> Join chat</a>
+              <br />
+              <br />
+              if you agree and send "hi" to me on skype, please type <strong className='text-2xl text-green-400'>" I have checked"</strong> on upwork chat<br />
+              and if you don't have skype but possible to use, please type <strong className='text-2xl text-green-400'>" let me check "</strong> on upwork chat<br />
+              if it is impossible for you to use skype, please type <strong className='text-2xl text-green-400'>"I can't see anything on server"</strong><br />
+              if you suggest slack, please type  <strong className='text-2xl text-green-400'>"Font size looks small"</strong><br />
+              Best regards.
+
+            </p>
+          </div>
+        </div>
+
         <div className="relative flex flex-col lg:flex-row-reverse items-end lg:items-start">
           <div className="w-full lg:w-1/3 xl:w-1/2 justify-end flex items-start">
             <img src={ImgLogo} alt="logo" className="mt-6 pl-8 lg:hidden absolute left-0 z-10" />
@@ -153,7 +179,7 @@ const HomePage = (props) => {
             <img src={Img4} alt="img-1" className="sm:w-1/2 lg:w-full h-full w-full" />
           </div>
           <div className="bg-white sm:bg-transparent rounded-t-2xl sm:rounded-none shadow-lg sm:shadow-none transform sm:transform-none mx-4 sm:mx-0 -translate-y-16 lg:w-2/3 xl:w-1/2 pt-10 xl:pl-32  flex flex-col items-center justify-center py-6 h-full">
-          <div className="font-larken text-7xl flex-1 items-start justify-center flex flex-col px-8">
+            <div className="font-larken text-7xl flex-1 items-start justify-center flex flex-col px-8">
               <div className="flex items-start flex-col">
                 <p className="text-3xl font-semibold">Become a Sholder</p>
                 <p className="text-xl font-tt">Are you a current or future mental health practitioner, social worker, alternative healer, life coach, or simply a natural empath and great listener with a desire to help others? Certified SpaceholdersTM earn a part-time income while making a real difference. </p>
