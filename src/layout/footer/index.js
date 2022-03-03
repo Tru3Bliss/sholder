@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 import ImgS from '../../assets/images/img_s.png'
 import ImgLogo from '../../assets/icons/logo.svg'
@@ -8,24 +8,22 @@ import "./footer.scss"
 
 
 const Footer = () => {
-  const navigate = useNavigate()
-
-  const handleNavigate = (path) => {
-    navigate(path)
-  }
-
   return (
     <footer className="container footer w-full flex text-white flex-col justify-center items-center gap-4 font-larken">
       <div className="flex items-center justify-center gap-2 py-2">
-        <button type="button">
-          About Us
-        </button>
+        <Link to={"/about"}>
+          <button type="button">
+            About Us
+          </button>
+        </Link>
         <p>
           ·
         </p>
-        <button type="button">
-          FAQs
-        </button>
+        <Link to={"/faq"}>
+          <button type="button">
+            FAQs
+          </button>
+        </Link>
         <p>
           |
         </p>
